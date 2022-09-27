@@ -21,7 +21,10 @@ int main(int argc, char*argv[])
 	char* sql;
 	const char* data = "callMethod function called";
 	// Open database //
-	rc = sqlite3_open("fact.db", &db);
+	rc = sqlite3_open("factdb.db", &db);
+	sql = "select * from ...."
+	sqlite3_exec(sql)
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
